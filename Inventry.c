@@ -172,6 +172,7 @@ void searchItem(){
             printf("\n\nItem Code\t Item\t\t Qty\t\t Unit Price\t Total Price\n\n");
             double tot = inv.itemQty*inv.itemPrice;
             printf("%d\t\t %s\t\t %d\t\t %.2lf\t\t %.2lf\n\n",inv.itemNumber,inv.itemName,inv.itemQty,inv.itemPrice,tot);
+            break;
         }
     }
     if(found){
